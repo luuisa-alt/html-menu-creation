@@ -18,9 +18,9 @@ li {
 }
 
 img {
-    width: 100%;
+    width: 25%;
     height: auto;
-    max-width: 100%;
+    max-width: 25%;
 }
 
 main {
@@ -53,13 +53,13 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 25%;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 35%;
     height: auto;
 }
 
@@ -78,9 +78,27 @@ table {
     border: 3px solid black;
     width: 100%;
 }
-  
 td,
+th {
+    border:1px solid black;
+    padding: 5px;
+}
+td,
+tr,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+footer {
+    width: 100%;
+    padding: 50%px;
+    background-color: brown;
+}
+footer p {
+    color: white
+}
+.highlight {
+    width: 50%;
+    padding: 1%;
+    background-color: lightgreen
 }
